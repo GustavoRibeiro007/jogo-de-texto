@@ -50,22 +50,22 @@ def intro():
     digitar_lento("E se... Você só espera ansiosamente pela chuva, sai de casa para sentir ela na pele, os pingos gelados que fazem seu corpo tremer de animação e, de repente... Você nunca mais é visto...")
     input_lento("...")
     os.system('cls')
-    digitar_lento("Foi o que aconteceu com aquela garota... Não é?")
+    digitar_lento("Foi o que aconteceu com aquela ela... Não é?")
     input_lento("...")
     os.system('cls')
     digitar_lento("Me fala...")
     os.system('cls')
 
     while True: 
-        escolha = input_lento("A morte... É o fim? (Sim ou Não): ").lower()
+        escolha = input_lento("Você acha que a morte... É o fim? (Sim ou Não): ").lower()
         if escolha == 'sim':
             os.system('cls')
-            digitar_lento("Sério? Acredita mesmo nisso?")
+            digitar_lento("Sério? Realmente acredita nisso?")
             os.system('cls')
-            escolha = input_lento("Não acha que tem algo a mais nessas nossas vidas insignificantes?").lower()
+            escolha = input_lento("Acredita que tem um criador lá em cima? Só esperando você chegar e decidir se o seu destino?").lower()
             if escolha == 'sim':
                 os.system('cls')
-                digitar_lento("Olha, concordamos em algo então, ainda bem.")
+                digitar_lento("*risos*... Você é uma pessoa de muita fé mesmo.")
                 break
             elif escolha == 'não':
                 os.system('cls')
@@ -74,18 +74,70 @@ def intro():
 
         elif escolha == 'não':
             os.system('cls')
-            digitar_lento("O que teria depois desse fim? Um novo mundo? Uma nova história? Quem sabe um... Novo amor? *risos*")
+            digitar_lento("Do tipo cético né?! *risos* acho que crer em algo não é sua praia.")
             break  
         else:
-            digitar_lento("Não quer responder a minha pergunta? Vamos, o que tem a perder?")
+            digitar_lento("Não quer responder a minha pergunta? Vamos, o que tem a perder?!")
             os.system('cls')
 
     # Continuação da narrativa após o loop
     os.system('cls')
-    digitar_lento("*risos*... Você, não tem ideia do que uma simples chuva pode causar em nós...")
+    digitar_lento("*silêncio*...")
     input_lento("...")
     os.system('cls')
-    digitar_lento("Efeito borboleta... Curioso não?")
+    digitar_lento("Sabe, quando... Quando você move uma pedra do lugar, matar uma simples formiga, fazer certa escolha")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("e ao fazer essas pequenas coisas... Você muda, totalmente seu futuro, oque devia acontecer com você, não acontece mais")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("efeito borboleta... Um grande 'E se'. ")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("")
+
+    while True:
+        escolha = input_lento("E se ela não tivesse saído de casa? Acha que ela ainda estaria viva?").lower()
+        if escolha == 'sim':
+            os.system('cls')
+            digitar_lento("Acha que seria capaz de salva-lá?")
+            input_lento("...")
+            break
+        elif escolha == 'não':
+            os.system('cls')
+            digitar_lento("Então você não faria nada para salvar ela?")
+            input_lento("...")
+            break
+        else:
+            digitar_lento("Não gosta desses assuntos? responda a minha pergunta!")
+            os.system('cls')
+
+    os.system('cls')
+    digitar_lento("...")
+    os.system('cls')
+    digitar_lento("Ela esperou você, ela gritou por você...")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("E onde você estava quando ela mais precisou de você?")
+    input_lento("Eu...")
+    os.system('cls')
+    digitar_lento("Me diz, você já matou alguém? Óbvio que não, nem salvar alguém você consegue")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("nem se salvar... você conseguiu...")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("Valeu a pena?")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("Valeu a pena ter chegado atrasado naquela tarde chuvosa? *trovões*")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("*risos*... Eu ainda escuto os gritos dela...")
+    input_lento("...")
+    os.system('cls')
+    digitar_lento("...")
+
 
 def jogar():
     intro()
